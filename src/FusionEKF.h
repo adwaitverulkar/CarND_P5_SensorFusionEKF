@@ -11,14 +11,8 @@
 
 class FusionEKF {
  public:
-  /**
-   * Constructor.
-   */
+ 
   FusionEKF();
-
-  /**
-   * Destructor.
-   */
   virtual ~FusionEKF();
 
   /**
