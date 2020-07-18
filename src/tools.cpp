@@ -61,7 +61,7 @@ MatrixXd Tools::CalculateJacobian(const VectorXd& x_state) {
   
   double den = px * px + py * py;
   double den_root = sqrt(den);
-  double den_3by2 = den *den_root; 
+  double den_3by2 = den * den_root; 
   
   if(den == 0) {
     std::cout << "Divide by zero" << std::endl;
